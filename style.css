@@ -26,13 +26,14 @@ html{
     padding: 0 23px;
 }
 .logo{
-      width: 40%;
+      width: 35%;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 10px;
 }
 .logo img {
-    width: 40%;
+    width: 35%;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -51,7 +52,7 @@ html{
 }
 #search{
     padding: 5px;
-    font-size:17px;
+    font-size:14px;
     border: 2px solid grey;
     border-radius: 9px;
 }
@@ -121,12 +122,12 @@ html{
     margin: 20px 0px;
  }
  .sections{
-    height: 400px;
     display: flex;
     align-items: center;
     margin: auto;
     max-width: 80%;
     font-family:  Arial, sans-serif;
+    padding: 10px;
  }
  .section-left{
     flex-direction: row-reverse;
@@ -196,7 +197,6 @@ html{
    height: 4px;
    margin: 5px 3px;
  }
- 
 
 
 @media(max-width: 1140px){
@@ -205,7 +205,6 @@ html{
    }
    .navbar{
       flex-direction: column;
-      height: 800px;
    }
    .right-nav{
       text-align: center;
@@ -217,21 +216,27 @@ html{
       display: block;
    }
    .h-nav-resp{
-      height: 450px;
+      height: 60px;
+
    }
    .v-class-resp{
-      visibility: hidden;
+     opacity: 0;
    }
+
    .box-main{
       flex-direction: column-reverse;
       max-width: 70%;
-      height: 300px;
+      height: 400px;
       padding-top: 60px;
       text-align: center;
    }
    .sections{
-      padding-top: 40px;
+      
       flex-direction: column-reverse;
-      height: 700px;
    }
+   .sections paras{
+      font-size: 15px;
+      padding: 0px;
+   }
+  
 }
