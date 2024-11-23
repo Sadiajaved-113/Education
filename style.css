@@ -246,7 +246,13 @@ html{
    
    }
    .buttons{
-      text-align: center;
+      
+      font-size: 15px;
+      width: 150px;
+   }
+   .btn{
+      width: 170px;
+      height: 55px;
    }
    .sections{
       
@@ -261,6 +267,9 @@ html{
    }
    .firstHalf {
       width:60%;
+   }
+   .secondHalf{
+      text-align: center;
    }
   
 }
